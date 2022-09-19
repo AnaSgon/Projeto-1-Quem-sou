@@ -1,0 +1,89 @@
+*{margin: 0;
+}
+
+#tituloaula5{
+    background: rgb(1, 1, 99);
+    width: 1300px;
+    height: 100px;
+    text-align: center;
+    color: white;
+    line-height: 100px;
+}
+
+#topoaula5 ul{
+    background: blue;
+    float: left;
+    width: 1300px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif; 
+    padding-left: 20px;
+    padding-top: 20px;
+    display: flex;
+    margin:0;
+}
+
+#topoaula5 ul li{
+    padding: 2px 20px;
+   
+}
+
+#topoaula5 ul a{
+color: white;
+font-size: 30px;
+text-decoration: none;
+display: block;
+
+}
+
+#topoaula5 ul a:hover{
+    color: yellow;
+    background: black;
+}
+
+#colunaesquerda{
+    width: 200px;
+    height: 880px;
+    background: rgb(151, 151, 255);
+    float: left;
+}
+
+#colunadireita{
+    width: 200px;
+    height:880px ;
+    background: rgb(151, 151, 255);
+    float: right;
+}
+
+#projetoaula5{
+    display: flex;
+}
+
+#projetoaula5 .projeto5{
+    margin-left: 75px;
+    margin-top: 15px;
+    list-style: none;
+}
+
+#projetoaula5 .projeto5 a{
+    width: 135px;
+    height: 50px;
+    background: black;
+    text-decoration: none;
+    color: white;
+    padding-left: 50px;
+    line-height: 50px;
+    display: block;
+    border: 5px solid blue;
+}
+
+#projetoaula5 .projeto5 a:hover{
+   background: white;
+   color: black;
+   border: 5px solid black;
+}
+#rodapeaula5{
+    width: 1300px;
+    height: 50px;
+    background: rgb(3, 3, 62);
+    margin:0;
+}
